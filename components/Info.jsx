@@ -1,7 +1,7 @@
 export default function Info() {
     return (
         <header>
-            <img src="../src/assets/images/dummy-image.webp" className="profile-img" />
+            <img src="../src/assets/images/dummy-avatar.jpg" className="profile-img" />
             <div className="profile-info">
                 <h2>Sanjay</h2>
                 <h3>FullStack Developer</h3>
