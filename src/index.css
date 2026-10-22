@@ -16,7 +16,7 @@ body {
   background-color: #1A1B21;
 }
 
-h2 , h3 , p {
+h2 , h3 , h4 , p {
   margin: 0;
 }
 
@@ -25,6 +25,8 @@ a {
   color: inherit;
   display: inline-block;
 }
+
+/* Info */
 
 .profile-img {
   width: 100%;
@@ -83,4 +85,28 @@ a {
 
 .linkedin-icon {
   background-color: #5093E2;
+}
+
+
+
+/* About and Interest */
+
+main {
+  padding: 2.2em;
+}
+
+.about-header , .interest-header {
+  color: #F5F5F5;
+}
+
+.interest-header {
+  margin-top: 1.5em;
+}
+
+.about-content , .interest-content {
+  margin-top: 0.5em;
+  color: #DCDCDC;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  text-align: justify;
 }
