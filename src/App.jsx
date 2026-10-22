@@ -6,9 +6,11 @@ import Footer from '../components/Footer.jsx'
 export default function App() {
   return (
     <>
-      <Info />
-      <About />
-      <Footer />
+      <div className='container'>
+        <Info />
+        <About />
+        <Footer />
+      </div>
     </>
   )
 }
